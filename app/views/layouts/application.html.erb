@@ -9,6 +9,17 @@
   </head>
 
   <body>
+
+	<header class="clearfix">
+		<nav>
+			<ul class="top-menu">
+				<li><%= link_to "top", root_path, class: "top-menu-item" %></li>
+				<li><%= link_to "profile", home_profile_path, class: "top-menu-item" %></li>
+				<li><%= link_to "work", home_work_path, class: "top-menu-item" %></li>
+				<li><%= link_to "contact", home_contact_path, class: "top-menu-item" %></li>
+			</ul>
+		</nav>
+	</header>
     <%= yield %>
   </body>
 </html>
