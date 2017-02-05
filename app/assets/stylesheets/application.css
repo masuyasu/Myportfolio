@@ -13,3 +13,92 @@
  *= require_tree .
  *= require_self
  */
+
+ *{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header{
+	width: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: fixed;
+}
+
+nav{
+	width: 90%;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav li {
+	float: left;
+	width: 25%;
+	list-style-type: none;
+	font-size: 20px;
+}
+
+.top-menu{
+	float: right;
+	width: 50%;
+	line-height: 50px;
+}
+
+.top-menu-item{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+
+.main-title {
+	display: none;
+	padding-top: 100px;
+	padding-left: 300px;
+	font-size: 50px;
+	color: white;
+}
+
+#top-img1{
+	float: left;
+	width: 50%;
+	height: 50vh;
+	background-image: url(IMG_7928.jpg);
+	background-size: cover;
+	
+}
+
+.top-img2{
+	float: left;
+	width: 50%;
+	height: 50vh;
+	background-image: url(IMG_7532.jpg);
+	background-size: cover;
+	
+}
+
+.top-img3{
+	float: left;
+	width: 50%;
+	height: 50vh;
+	background-image: url(IMG_8395.jpg);
+	background-size: cover;
+	
+}
+
+.top-img4{
+	float: left;
+	width: 50%;
+	height: 50vh;
+	background-image: url(IMG_7863.jpg);
+	background-size: cover;
+	
+}

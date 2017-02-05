@@ -1,145 +1,48 @@
-*{
-	margin: 0;
-	padding: 0;
+/*profileのページ*/
+.site {
+	padding-top: 50px;
+	padding-bottom: 30px;
 }
 
-.clearfix::after{
-	content: "";
-	display: block;
-	clear: both;
+.gray {
+	background-color: #DCDCDC;
 }
 
-header{
-	width: 100%;
-	background-color: black;
-	opacity: 0.7;
-	position: fixed;
+.orange {
+	background-color: #FFA07A;
 }
 
-nav{
-	width: 90%;
-	height: 50px;
-	margin: 0 auto;
+h1{
 	text-align: center;
-}
-
-nav li {
-	float: left;
-	width: 25%;
-	list-style-type: none;
-	font-size: 20px;
-}
-
-.top-menu{
-	float: right;
-	width: 50%;
-	line-height: 50px;
-}
-
-.top-menu-item{
-	text-decoration: none;
-	color: white;
-	cursor: pointer;
-}
-
-
-.main-title {
-	display: none;
-	padding-top: 100px;
-	padding-left: 300px;
-	font-size: 50px;
-	color: white;
-}
-
-#top-img1{
-	float: left;
-	width: 50%;
-	height: 50vh;
-	background-image: url(IMG_7928.jpg);
-	background-size: cover;
-	
-}
-
-.top-img2{
-	float: left;
-	width: 50%;
-	height: 50vh;
-	background-image: url(IMG_7532.jpg);
-	background-size: cover;
-	
-}
-
-.top-img3{
-	float: left;
-	width: 50%;
-	height: 50vh;
-	background-image: url(IMG_8395.jpg);
-	background-size: cover;
-	
-}
-
-.top-img4{
-	float: left;
-	width: 50%;
-	height: 50vh;
-	background-image: url(IMG_7863.jpg);
-	background-size: cover;
-	
-}
-
-
-.mein{
-	width: 960px;
-	margin: 0 auto;
-	background-color: lightblue;
-	
 }
 
 h2{
 	text-align: center;
 	text-shadow: 3px 3px 2px gray;
-	color: blue;
-}
-
-#profile{
-	padding-top: 70px;
 }
 
 .main-img{
 	display: inline-block;
 	width: 300px;
 	height: 300px;
-	margin-left: 150px;
-	margin-top: 70px;
+	margin-top: 30px;
 	border-radius: 10px;
 	box-shadow: 0 0 3px 2px gray;
-	background-image: url(../img/IMG_0136.JPG);
+	background-image: url(IMG_0136.JPG);
 	background-size: cover;
 }
-.introduction{
-	display: inline-block;
-	margin-left: 5%;
+
+.intro{
+	padding-top: 30px;
 }
 
-#Work{
-	padding-top: 70px;
-}
+
 
 h3{
 	margin-top: 40px;
 	text-align: center;
 }
 
-.skill{
-	margin-top: 20px;
-	text-align: center;
-}
-
-.sentence{
-	width: 80%;
-	margin: 0 auto;
-	text-align: center;
-}
 
 footer{
 	background-color: black;
@@ -184,26 +87,25 @@ footer{
 	text-align: center;
 }
 
-.myform{
-	margin: 20px 25%;
+
+
+
+/*contactのページ*/
+
+.con-main {
+	text-align: center;
+	font-size: 40px;
 }
 
-form input{
-	width: 99%;
-	padding: 3px 0;
+.con-sab {
+	text-align: center;
 }
 
-dt{
-	clear: both;
-    float: left;
-    width: 120px;
-    padding-bottom: 10px;
-    color: #000;
+.jumbotron {
+	height: 100vh;
+	margin: 0px;
+	background: url("freeimage.9-bb.com-02369.jpg");
+	background-position: center center;
+	background-size: cover;
+	color: #000000;
 }
-
-dd{
-	margin-left: 130px;
-    padding-bottom: 10px;
-}
-
-
