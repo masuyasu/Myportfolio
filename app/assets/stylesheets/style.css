@@ -8,12 +8,26 @@
 	background-color: #DCDCDC;
 }
 
-.orange {
-	background-color: #FFA07A;
+.gray2 {
+	background-color: #F5F5F5;
 }
+
+.mizu {
+	background-color: #E0FFFF;
+}
+
+.tyairo {
+	background-color: #F5DEB3;
+}
+
+.white {
+	background-color: white;
+}
+
 
 h1{
 	text-align: center;
+	text-shadow: 3px 3px 2px gray;
 }
 
 h2{
@@ -32,15 +46,51 @@ h2{
 	background-size: cover;
 }
 
-.intro{
-	padding-top: 30px;
+.hobby1 {
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+	box-shadow: 0 0 3px 2px gray;
+	background-image: url(yakyuu.jpg);
+	background-size: cover;
 }
 
+.hobby2 {
+	width: 300px;
+	height: 200px;
+	margin-top: 150px;
+	box-shadow: 0 0 3px 2px gray;
+	background-image: url(eiga.jpeg);
+	background-size: cover;
+}
+
+
+.intro{
+	margin-top: 30px;
+	text-align: center;
+	background-color: #FFFAFA;
+	border: 3px black dotted;
+}
+
+.intro2 {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+	background-color: #FFFAFA;
+	border: 3px black dotted;
+}
 
 
 h3{
 	margin-top: 40px;
 	text-align: center;
+	text-shadow: 3px 3px 2px gray;
+}
+
+h4 {
+	margin-top: 40px;
+	text-align: center;
+	text-shadow: 3px 3px 2px gray;
 }
 
 
@@ -49,44 +99,57 @@ footer{
 	opacity: 0.7;
 }
 
-.text{
-	padding-top: 15px;
-	padding-bottom: 15px;
+.text1{
+	padding-top: 30px;
 	text-align: center;
 	color: white;
 }
 
-.webpage{
-	margin: 10px 25%;
-	width: 500px;
-	height: 300px;
+.text2 {
+	padding-top: 30px;
 	text-align: center;
-	box-shadow: 0 0 3px 2px gray;
+}
+
+.text3 {
+	text-align: center;
+}
+
+.text4 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.text5 {
+	margin-top: 30px;
 }
 
 
-.image{
-	margin: 20px auto;
+.photo {
 	text-align: center;
 }
+
 
 .architecture{
-	margin-left: 20px;
-	width: 150px;
-	height: 150px;
+	width: 300px;
+	height: 200px;
+	margin-top: 30px;
 	box-shadow: 0 0 3px 2px gray;
 }
 
-#message{
-	padding-top: 70px;
-	padding-bottom: 70px;
+.tiiki {
+	background-image: url('higashikawa.jpg');
+	background-size: cover;
 }
 
-.something{
-	margin-top: 20px;
-	text-align: center;
+.nezu {
+	background-image: url('nezubijutukan.jpg');
+	background-size: cover;
 }
 
+.wahuu {
+	background-image: url('wahuu.jpeg');
+	background-size: cover;
+}
 
 
 
