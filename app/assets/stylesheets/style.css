@@ -1,0 +1,174 @@
+/*profileのページ*/
+.site {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.gray {
+	background-color: #DCDCDC;
+}
+
+.gray2 {
+	background-color: #F5F5F5;
+}
+
+.mizu {
+	background-color: #E0FFFF;
+}
+
+.tyairo {
+	background-color: #F5DEB3;
+}
+
+.white {
+	background-color: white;
+}
+
+
+h1{
+	text-align: center;
+	text-shadow: 3px 3px 2px gray;
+}
+
+h2{
+	text-align: center;
+	text-shadow: 3px 3px 2px gray;
+}
+
+.main-img{
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	margin-top: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 3px 2px gray;
+	background-image: url(IMG_0136.JPG);
+	background-size: cover;
+}
+
+.hobby1 {
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+	box-shadow: 0 0 3px 2px gray;
+	background-image: url(yakyuu.jpg);
+	background-size: cover;
+}
+
+.hobby2 {
+	width: 300px;
+	height: 200px;
+	margin-top: 150px;
+	box-shadow: 0 0 3px 2px gray;
+	background-image: url(eiga.jpeg);
+	background-size: cover;
+}
+
+
+.intro{
+	margin-top: 30px;
+	text-align: center;
+	background-color: #FFFAFA;
+	border: 3px black dotted;
+}
+
+.intro2 {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+	background-color: #FFFAFA;
+	border: 3px black dotted;
+}
+
+
+h3{
+	margin-top: 40px;
+	text-align: center;
+	text-shadow: 3px 3px 2px gray;
+}
+
+h4 {
+	margin-top: 40px;
+	text-align: center;
+	text-shadow: 3px 3px 2px gray;
+}
+
+
+footer{
+	background-color: black;
+	opacity: 0.7;
+}
+
+.text1{
+	padding-top: 30px;
+	text-align: center;
+	color: white;
+}
+
+.text2 {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.text3 {
+	text-align: center;
+}
+
+.text4 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.text5 {
+	margin-top: 30px;
+}
+
+
+.photo {
+	text-align: center;
+}
+
+
+.architecture{
+	width: 300px;
+	height: 200px;
+	margin-top: 30px;
+	box-shadow: 0 0 3px 2px gray;
+}
+
+.tiiki {
+	background-image: url('higashikawa.jpg');
+	background-size: cover;
+}
+
+.nezu {
+	background-image: url('nezubijutukan.jpg');
+	background-size: cover;
+}
+
+.wahuu {
+	background-image: url('wahuu.jpeg');
+	background-size: cover;
+}
+
+
+
+/*contactのページ*/
+
+.con-main {
+	text-align: center;
+	font-size: 40px;
+}
+
+.con-sab {
+	text-align: center;
+}
+
+.jumbotron {
+	height: 100vh;
+	margin: 0px;
+	background: url("freeimage.9-bb.com-02369.jpg");
+	background-position: center center;
+	background-size: cover;
+	color: #000000;
+}
